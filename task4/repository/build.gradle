@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+
+    compileOnly 'org.projectlombok:lombok:1.18.8'
+    compile('org.springframework.boot:spring-boot-starter-data-mongodb:2.2.0.RELEASE')
+}
+
+description = 'repository'

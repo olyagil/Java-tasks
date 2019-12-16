@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+
+    }
+}
+plugins {
+    id 'io.spring.dependency-management' version '1.0.6.RELEASE'
+}
+
+allprojects {
+    group = 'com.epam.hil'
+    version = '1.0-SNAPSHOT'
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        mavenLocal()
+        maven {
+            url = 'http://repo.maven.apache.org/maven2'
+        }
+    }
+
+
+}
