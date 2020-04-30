@@ -28,7 +28,7 @@
     "grunt-contrib-jasmine": "~1.0.3",
     "grunt-newer": "~1.2.0",
     "jshint-stylish": "2.2.0",
-    "jquery": "~2.2.3",
+    "jquery": "~3.5.0",
     "karma": "~0.13.22",
     "karma-cli": "~1.0.0",
     "jasmine-core": "~2.4.1",
